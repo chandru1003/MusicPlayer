@@ -11,6 +11,7 @@ class Controls():
     def addControls(self):
         wid = QWidget(self)
         self.setCentralWidget(wid)
+
         # Add song controls
         self.Slider = QSlider(Qt.Horizontal)
         self.Slider.setFocusPolicy(Qt.NoFocus)
@@ -20,6 +21,7 @@ class Controls():
         playBtn = QPushButton('Play')  # play button
         pauseBtn = QPushButton('Pause')  # pause button
         stopBtn = QPushButton('Stop')  # stop button
+
         # Add playlist controls
         volumeDescBtn = QPushButton('V (-)')  # Decrease Volume
         volumeIncBtn = QPushButton('V (+)')  # Increase Volume
@@ -37,6 +39,7 @@ class Controls():
         controls.addWidget(prevBtn)
         controls.addWidget(shuffleBtn)
         controls.addWidget(nextBtn)
+
         # Add buttons to playlist controls layout
         controls.addWidget(volumeIncBtn)
         playlistCtrlLayout.addWidget(playBtn)
