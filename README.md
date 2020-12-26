@@ -9,7 +9,7 @@ Use the package manager pipto install [PyQt5](https://pypi.org/project/PyQt5/) .
 ### bash
 pip install PyQt5
 
-## Recommed IDE 
+## Recommended IDE
 - [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) 
  - [Aanaconda](https://www.anaconda.com/)
 
