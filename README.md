@@ -6,7 +6,7 @@ software need minimum requirements for good excution  and so no need of maintena
 ## Installation
 
 Use the package manager pipto install [PyQt5](https://pypi.org/project/PyQt5/) .
-###bash
+### bash
 pip install PyQt5
 
 ## Recommed IDE 
